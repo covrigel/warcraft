@@ -35,8 +35,6 @@ class Barracks
       @gold -= 135
       @food -= 2
       Footman.new
-    else
-      nil
     end
   end
 
@@ -45,8 +43,6 @@ class Barracks
       @gold -= 90
       @food -= 5
       Peasant.new
-    else
-      nil
     end
   end
 
